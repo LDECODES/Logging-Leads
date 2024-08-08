@@ -4,7 +4,6 @@ const SQL = await initSqlJs ({
 })
 
 let db = new SQL.Database()
-
 console.log(db);
 
 
